@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Caveat", cursive;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, #3E0703, #4B4376);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.calculator{
+    height: 400px;
+    width: 500px;
+    padding: 30px;
+    background-color: rgba(170, 182, 172, 0.17);
+    border-radius: 20px;
+    border: 2px solid rgba(0,0,0);
+    box-shadow: 15px 15px rgba(0,0,0,0.17) ;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="range"]{
+    width: 75%;
+    height: 3.5px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #dcdcdc;
+    border-radius: 3px;
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+span{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#result{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.categories{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+}
